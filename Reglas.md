@@ -1,4 +1,4 @@
-#  WEATHER DONUT ROSCO
+#  WEATHER DONUT (ROSCO)
 G15-TP1-1CUAT
 
 El juego consiste en acertar las 27 palabras pedidas segun la letra correspondida, con su definicion o consigna.
