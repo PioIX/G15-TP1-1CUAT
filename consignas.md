@@ -1,8 +1,9 @@
 #  Acción por el Clima - ODS 13
+**(solo a la vista la definición)**
 
 **ATMOSFERA**: cuya capa de gas de un cuerpo celeste, el cual atrae los gases por su gravedad, se mantienen en él si la gravedad es suficiente. 
  
-**B**
+**BIODEGRADABLE**: productos conformados por elementos químicos naturales que pueden descomponerse a partir de la acción del sol, agua, bacterias, etc.
 
 **CARBONO NEUTRO**:  se conoce como emisión neta de dióxido de carbono cero.
 
@@ -32,28 +33,29 @@
  
  **OLA DE CALOR**: un evento protagonizado por temperaturas extremadamente altas para una región determinada, se mide en relación a la temperatura promedio del área.
  
- **P**
+ **PLANT BASED**: tipo de dieta que consume únicamente productos 100% vegetales para minimizar el impacto de los gases y desechos provenientes de la industria cárnica
  
 **(CONTIENE Q) SEQUÌA**: anomalía climatológica en la escasa disponibilidad de agua dejando de ser suficiente para abastecer las necesidades de las plantas, los animales y los humanos que viven en dicho lugar.
 
-**R**
+**RECURSOS NATURALES**: son bienes o servicios que proporciona la naturaleza sin la intervención de la sociedad. Se divide en tres tipos dependiendo de su renovabilidad.
  
 **(CONTIENE S) DESARROLLO SOSTENIBLE**: desarrollo que satisfaga a la generación presente sin comprometer a las futuras en cuestiones naturales y climáticas.
 
 **(CONTIENE T) PETRÒLEO**: principal compuesto fósil contaminante de flora y fauna marina tras la realización de una exploración y/o explotación dentro de áreas oceánicas. 
 
-**U**
+**(CONTIENE U) HIDRÁULICA**: tipo de energía sustentable y renovable, se obtiene del aprovechamiento del potencial de la corriente del agua, saltos o mareas. 
 
-**V**
+
+**VENENO**:
 
 **W**
 
-**X**
+**(CONTIENE X) SOBREEXPLOTACIÓN**: explotación excesiva de un recurso natural.
 
  
-(CONTIENE Y) ECOFRIENDLY:  
+**(CONTIENE Y) ECOFRIENDLY**:  
 
-**Z**
+**(CONTIENE Z) REUTILIZAR**:  Una de las famosas R que nos permite que un desecho pueda ser utilizado formando parte de un producto nuevo.
 
 
 
