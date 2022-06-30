@@ -48,7 +48,7 @@
 
 **VENENO**: se utiliza para fumigar campos de siembra, el más conocido es el Glifosato.
 
-**WWF (World Wildlife Fund) **: organización no gubernamental fundada en 1961 que se encarga de la conservación del medio ambiente.
+**WWF (World Wildlife Fund)**: organización no gubernamental fundada en 1961 que se encarga de la conservación del medio ambiente.
 
 **(CONTIENE X) SOBREEXPLOTACIÓN**: explotación excesiva de un recurso natural.
 
