@@ -19,17 +19,17 @@
 
 **(CONTIENE I) PUNTO DE INFLEXIÒN**: Punto en el cual se considera tarde para el accionar sobre ciertos efectos del cambio climático.
 
-**J**
+**JUSTICIA AMBIENTAL**: tratamiento justo y participación de todas las personas independientemente de su raza, color, origen nacional, cultura o educación con respecto al desarrollo, implantación, aplicación de las leyes, reglamentos y políticas ambientales.
 
-**K**
+**(CONTIENE K) PROTOCOLO DE KIOTO**:  es un protocolo de la Convención Marco de las Naciones Unidas sobre el cambio climático, y acuerdo internacional que tiene por objetivo reducir las emisiones de seis gases de efecto invernadero
  
  **(CONTIENE L) CLIMA**: se lo considera como el estado frecuente de la atmósfera perteneciente a un lugar específico de una superficie terrestre.
  
  **MITIGACIÒN**: acciones humanas que buscan reducir emisiones de gases del efecto invernadero.
  
- **N**
+ **NITROGENO**: un gas incoloro que compone cuatro quintos del volumen del aire de la atmósfera y se usa para sintetizar amoníaco y otros productos, para fabricar explosivos, como refrigerante y como atmósfera inerte para conservar ciertos productos.
  
- **Ñ**
+ **Ñ**:
  
  **OLA DE CALOR**: un evento protagonizado por temperaturas extremadamente altas para una región determinada, se mide en relación a la temperatura promedio del área.
  
@@ -46,7 +46,7 @@
 **(CONTIENE U) HIDRÁULICA**: tipo de energía sustentable y renovable, se obtiene del aprovechamiento del potencial de la corriente del agua, saltos o mareas. 
 
 
-**VENENO**:
+**VENENO**: se utiliza para fumigar campos de siembra, el más conocido es el Glifosato.
 
 **W**
 
