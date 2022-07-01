@@ -1,0 +1,65 @@
+body{
+    background-color: #0077b6;
+
+
+}
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+}
+
+header .menu{
+    margin:30px 0;
+    display:flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+header .menu a:hover{
+    text-decoration: solid;
+}
+
+header .menu a{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif ;;
+    font-weight: 100;
+    display: inline-block;
+    margin:0 60px;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.cont .h3{
+    font-family: 'Times New Roman', Times, serif ;;
+    font-size: 18px;
+    display: inline-block;
+    color:rgb(255, 255, 255);
+    text-align: justify;
+}
+.cont .h2{
+    font-family: 'Times New Roman', Times, serif ;;
+    font-size: 25px;
+    display: inline-block;
+    color: #ade8f4;
+    text-align: justify;
+}
+
+.cont .h1{
+    font-family: 'Times New Roman', Times, serif ;;
+    font-size: 40px;
+    color:#003049;
+    text-align: justify;
+    text-decoration: underline;
+}
+
+.cont{
+    font-family: 'Times New Roman', Times, serif ;;
+    font-weight: 100;
+    display: inline-block;
+    margin: 60px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: justify;
+}
