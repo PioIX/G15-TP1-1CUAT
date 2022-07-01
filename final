@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="final.css">
+    <title> ¡Terminaste! </title>
+</head>
+<body>
+    <header>
+        <div class= "contenedor">
+            <nav class="menu">
+                <a href="proyecto.html"><strong> SALIR </strong></a>
+            </nav>
+        </div>    
+        <div class="arriba">
+        <h3 class = "h3"> ¡Terminaste! </h3>
+        <br>
+        <br>
+        <h1 class = "h1"> TU PUNTAJE ES </h1>
+        <br>
+        <h2 class = "h2"> X </h2>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="abajo">
+            <h4> ¿Querés volver a jugar?</h4>
+            <a class="btn2" href="juego.html">SÍ</a>
+            <a class="btn3" href="proyecto.html">NO</a>
+        </div>
+</body>
