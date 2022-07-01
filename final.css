@@ -1,0 +1,66 @@
+body{
+    background-image: url('./img/img.final.jpg');
+    background-size: contain;
+    background-size: cover;
+    height:400px;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: cover;
+}
+
+header .menu{
+    margin:30px 0;
+    display:flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+header .menu a:hover{
+    text-decoration: solid;
+}
+
+header .menu a{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif ;;
+    font-weight: 100;
+    display: inline-block;
+    margin:0 60px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.abajo{
+    font-family: 'Times New Roman', Times, serif ;;
+    text-align: center;
+}
+.arriba{
+    font-family: 'Times New Roman', Times, serif ;;
+    text-align: center;
+}
+
+.arriba .h3{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif ;
+    font-weight: 100;
+    margin:0 60px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+.arriba .h2{
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif ;
+    font-weight: 100;
+    margin:0 60px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+.arriba .h1{
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif ;;
+    font-weight: 100;
+    margin:0 60px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
