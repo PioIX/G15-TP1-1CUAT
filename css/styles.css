@@ -6,12 +6,23 @@ body{
     background-repeat: no-repeat;
     background-position:center;
     background-attachment: cover;
+    
 }
 
 header .contenido .h1{
     font-size: 90px;
-    margin-left: 1200px;
+    margin-left: 1050px;
     margin-right: 250px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+
+}
+header .contenido .h1a{
+    font-size: 90px;
+    margin-left: 1125px;
+    margin-right: 250px;
+    margin-top: 50px;
     text-align: center;
     color: rgb(255, 255, 255);
     font-family:'Times New Roman', Times, serif;
@@ -22,7 +33,7 @@ header .contenido .h2{
     font-size: 30px;
     text-align: right;
     color: rgb(255, 255, 255);
-    margin-right: 360px;
+    margin-right: 210px;
     font-family:'Times New Roman', Times, serif ;
     
 }
@@ -30,9 +41,9 @@ header .contenido .h2{
 header .contenido .h3{
     font-size: 30px;
     text-align: right;
-    margin-top: 130px;
+    margin-top: 100px;
     color: rgb(255, 255, 255);
-    margin-right: 387px;
+    margin-right: 250px;
     font-family:'Times New Roman', Times, serif 
 }
 
