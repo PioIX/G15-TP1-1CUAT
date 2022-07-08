@@ -10,7 +10,7 @@ var palabras = [
 	new Palabra(8, "I", "Contiene la I:", "Punto en el cual se considera tarde para el accionar sobre ciertos efectos del cambio climático", "Punto de inflexion"),
 	new Palabra(9, "J", "Empieza por J (2 palabras):", "Tratamiento justo y participación de todas las personas independientemente de su raza, color, origen nacional, cultura o educación con respecto al desarrollo, implantación, aplicación de las leyes, reglamentos y políticas ambientales", "Justicia ambiental"),
 	new Palabra(10, "K", "Contiene la K (3 palabras)", "Es un protocolo de la Convención Marco de las Naciones Unidas sobre el cambio climático","Protocolo de kioto"),
-  new Palabra(11, "L", "Contiene la L:", "Se lo considera como el estado frecuente de la atmósfera perteneciente a un lugar específico de una superficie terrestre", "Clima"),
+  	new Palabra(11, "L", "Contiene la L:", "Se lo considera como el estado frecuente de la atmósfera perteneciente a un lugar específico de una superficie terrestre", "Clima"),
 	new Palabra(12, "M", "Empieza por M:", "Acciones humanas que buscan reducir emisiones de gases del efecto invernadero", "Mitigacion"),
 	new Palabra(13, "N", "Empieza por N:", "Gas incoloro que compone cuatro quintos del volumen del aire de la atmósfera y se usa para sintetizar amoníaco y otros productos, para fabricar explosivos, como refrigerante y como atmósfera inerte para conservar ciertos productos", "Nitrogeno"),
 	new Palabra(14, "O", "Empieza por O (3 palabras):", "Un evento protagonizado por temperaturas extremadamente altas para una región determinada, se mide en relación a la temperatura promedio del área", "Ola de calor"),
@@ -22,24 +22,24 @@ var palabras = [
 	new Palabra(20, "U", "Contiene la U:", "Energía sustentable y renovable, se obtiene del aprovechamiento del potencial de la corriente del agua, saltos o mareas", "Hidraulica"),
 	new Palabra(21, "V", "Empieza por V:", "Se utiliza para fumigar campos de siembra, el más conocido es el Glifosato", "22"),
 	new Palabra(22, "W", "Empieza por W", "Organización no gubernamental fundada en 1961 que se encarga de la conservación del medio ambiente","WWF"),
-  new Palabra(23, "X", "Contiene la X:", "Explotación excesiva de un recurso natural", "Sobreexplotacion"),
+ 	new Palabra(23, "X", "Contiene la X:", "Explotación excesiva de un recurso natural", "Sobreexplotacion"),
 	new Palabra(24, "Y", "Contiene la Y:", "Concepto que caracteriza a una persona o un objeto de ser respetuoso con el medio ambiente, como  un producto compostable, o una persona con hábitos saludables", "Ecofriendly"),
 	new Palabra(25, "Z", "Contiene la Z:", "Una de las famosas Rs que nos permite que un desecho pueda ser utilizado formando parte de un producto nuevo", "Reutilizar")
 ];
 
 // Funciones
 
-function Palabra(ID, letra, pista, definicion, palabra, correcto) {
-	this.ID = ID;
-	this.letra = letra;
-	this.pista = pista;
-	this.definicion = definicion;
-	this.palabra = palabra;
-	this.correcto = null;
+class Palabra{
+	constructor(ID, letra, pista, definicion, palabra) {
+		this.ID = ID;
+		this.letra = letra;
+		this.pista = pista;
+		this.definicion = definicion;
+		this.palabra = palabra;
+	}
 }
 
-function mostrarDef() {
-	
+function mostrarDefinicion() {
 	document.getElementById("jspista").hidden == false
 	document.getElementById("jsdefinicion").hidden == false
 	document.getElementById("bienvenidagrande").hidden == true
