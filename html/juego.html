@@ -13,7 +13,7 @@
             <nav class="menu">
                 <a href="informacion.html"><strong>INFORMACIÓN</strong></a>
                 <a href="juego.html"><strong>JUEGO</strong></a>
-                <a href="proyecto.html"><strong>INICIO</strong></a>
+                <a href="proyecto.html"><strong>SALIR</strong></a>
             </nav>
         </div>  
 	</header>	
@@ -48,19 +48,39 @@
 		        <li class="item">X</li>
 		        <li class="item">Y</li>
 		        <li class="item">Z</li>
-		    </ul>
+			</ul>
+				<ul class="tablapuntaje">
+					<li id="tiempo" class="tiempo" href="">150</li>
+					<li id="puntaje" class="puntaje" href="">25</li>
+				</ul>
 		</div>
-		<div class="reglas-contenedor">
-			<div class="id">
+		<div id ="bienvenidagrande" class="reglas-contenedor">
+			<div id= "bienvenida" class="id">
 				<h4>Bienvenidos al rosco climático :)</h4>
-				<p class ="p"> Para jugar tenés que tener en cuenta las siguientes reglas:</p>
-				<p> En pantalla vamos a poder ver consignas o definiciones, en el espacio en blaco debajo tenés que completar con una o dos palabras (según corresponda). Si te trabás, podés apretar el botón de "pasapalabra" y continuar.</p>
+				<p class ="p"> El juego consiste en lo siguiente:</p>
+				<p> En pantalla vamos a poder ver consignas o definiciones, en el espacio en blanco debajo tenés que completar con una o dos palabras (según corresponda). Si te trabás, podés apretar el botón de "pasapalabra" y continuar.</p>
 				<h3> Aclaraciones: </h3>
 				<p> 1. La palabras deben escribirse sin tildes. </p> 
-				<p> 2. La tecla ENTER sirve para enviar la palabra y el ESPACIO para el botón de pasapalabra</p>
-				<a class="btn">Jugar</a>
+				<p> 2. La tecla ENTER sirve para enviar la palabra </p>
+				<p> 3. La tecla ESPACIO para el botón de pasapalabra</p>
+                <a href="jugar.html" id= "btn" class="btn"> Jugar</a>
+			</div>
+			<div id="preguntas" class="hidden2" hidden>
+				<span id="jspista" class="pista"></span>
+				<p id="jsdefinicion" class="definicion"></p>
+
+				<input id="respuesta" type="text" placeholder="Introduce tu respuesta">
+
+				<a id="enviar" class="btn btn--green" href="#" onclick="respuestaSiONo()">Enviar</a>
+				<a id="pasapalabra" class="btn" href="#" onclick="pasapalabra()">Pasapalabra</a>
+			</div>
+			<div id="controles" class="hidden" hidden>
+				<p id="titulo-end" class="titulo"></p>
+				<p id="subtitulo-end" class="subtitulo"></p>
+				<a id="again" class="btn" href=""><i class="icon-loop"></i>Jugar de nuevo</a>
 			</div>
 		</div>
 	</section>
+	<script src="java.js"></script>
 </body>
 </html>
