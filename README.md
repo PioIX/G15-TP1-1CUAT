@@ -46,7 +46,7 @@ En nuestra página web desarrollada con HTML y CSS contará con las siguientes p
   Carpeta que contiene una parte del repositorio original del flask, no es el producto final. 
   
 - [Archivo Consignas](https://github.com/PioIX/G15-TP1-1CUAT/blob/main/Consignas.md)
-  Sen encuentran las palabras junto a su respectiva descripcion, ordenadas alfabeticamente. Son utilizadas dentro del rosco.
+  Se encuentran las palabras junto a su respectiva descripcion, ordenadas alfabeticamente. Son utilizadas dentro del rosco.
   
 - [Archivo Presupuesto](https://github.com/PioIX/G15-TP1-1CUAT/blob/main/Proyecto%20-%20Grupo%2015.pdf)
   Aca se halla la descripción de la web, sus funciones detalladas con su interfaz determinada, los bocetos de las distintas pestañas de la web, quienes integran el       grupo y sus tareas dentro del proyecto interdisciplinario.
