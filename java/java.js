@@ -1,5 +1,16 @@
+class Palabra{
+	constructor (ID, letra, pista, definicion, palabra, correcto) {
+	this.ID = ID;
+	this.letra = letra;
+	this.pista = pista;
+	this.definicion = definicion;
+	this.palabra = palabra;
+	this.correcto = null;
+	}
+}
+
 var palabras = [
-	new Palabra(0, "A","Empieza por A","Capa de gas de un cuerpo celeste, el cual atrae los gases por su gravedad (se mantienen en él si la gravedad es suficiente)", "Atmosfera"),
+	new Palabra(0, "A","Empieza por A","Capa de gas de un cuerpo celeste, el cual atrae los gases por su gravedad (se mantienen en él si la gravedad es suficiente)", "atmosfera"),
 	new Palabra(1, "B", "Empieza por B","Productos conformados por elementos químicos naturales que pueden descomponerse a partir de la acción del sol, agua, bacterias, etc", "Biodegradable"),
 	new Palabra(2, "C", "Empieza por C (2 palabras):", "Se conoce como emisión neta de dióxido de carbono cero", "Carbono Neutro"),
 	new Palabra(3, "D", "Empieza por D (3 palabras):", "Gas emitido por la sociedad, se encuentra presente en efecto invernadero y contribuye a la contaminación", "Dioxido de carbono"),
@@ -10,39 +21,48 @@ var palabras = [
 	new Palabra(8, "I", "Contiene la I:", "Punto en el cual se considera tarde para el accionar sobre ciertos efectos del cambio climático", "Punto de inflexion"),
 	new Palabra(9, "J", "Empieza por J (2 palabras):", "Tratamiento justo y participación de todas las personas independientemente de su raza, color, origen nacional, cultura o educación con respecto al desarrollo, implantación, aplicación de las leyes, reglamentos y políticas ambientales", "Justicia ambiental"),
 	new Palabra(10, "K", "Contiene la K (3 palabras)", "Es un protocolo de la Convención Marco de las Naciones Unidas sobre el cambio climático","Protocolo de kioto"),
-  	new Palabra(11, "L", "Contiene la L:", "Se lo considera como el estado frecuente de la atmósfera perteneciente a un lugar específico de una superficie terrestre", "Clima"),
+    new Palabra(11, "L", "Contiene la L:", "Se lo considera como el estado frecuente de la atmósfera perteneciente a un lugar específico de una superficie terrestre", "Clima"),
 	new Palabra(12, "M", "Empieza por M:", "Acciones humanas que buscan reducir emisiones de gases del efecto invernadero", "Mitigacion"),
 	new Palabra(13, "N", "Empieza por N:", "Gas incoloro que compone cuatro quintos del volumen del aire de la atmósfera y se usa para sintetizar amoníaco y otros productos, para fabricar explosivos, como refrigerante y como atmósfera inerte para conservar ciertos productos", "Nitrogeno"),
-	new Palabra(14, "O", "Empieza por O (3 palabras):", "Un evento protagonizado por temperaturas extremadamente altas para una región determinada, se mide en relación a la temperatura promedio del área", "Ola de calor"),
-	new Palabra(15, "P", "Empieza por P (2 palabras):", "Tipo de dieta que consume únicamente productos 100% vegetales para minimizar el impacto de los gases y desechos provenientes de la industria cárnica", "Plant based"),
-	new Palabra(16, "Q", "Contiene la Q:", "Anomalía climatológica en la escasa disponibilidad de agua dejando de ser suficiente para abastecer las necesidades de las plantas, los animales y los humanos que viven en dicho lugar", "Sequia"),
-	new Palabra(17, "R", "Empieza por R (2 palabras):", "Son bienes o servicios que proporciona la naturaleza sin la intervención de la sociedad. Se divide en tres tipos dependiendo de su renovabilidad", "Recursos naturales"),
-	new Palabra(18, "S", "Contiene la S (2 palabras):", "Desarrollo que satisfaga a la generación presente sin comprometer a las futuras en cuestiones naturales y climáticas", "Desarrollo sostenible"),
-	new Palabra(19, "T", "Contiene la T:", "Principal compuesto fósil contaminante de flora y fauna marina tras la realización de una exploración y/o explotación dentro de áreas oceánicas", "Petroleo"),
-	new Palabra(20, "U", "Contiene la U:", "Energía sustentable y renovable, se obtiene del aprovechamiento del potencial de la corriente del agua, saltos o mareas", "Hidraulica"),
-	new Palabra(21, "V", "Empieza por V:", "Se utiliza para fumigar campos de siembra, el más conocido es el Glifosato", "22"),
-	new Palabra(22, "W", "Empieza por W", "Organización no gubernamental fundada en 1961 que se encarga de la conservación del medio ambiente","WWF"),
- 	new Palabra(23, "X", "Contiene la X:", "Explotación excesiva de un recurso natural", "Sobreexplotacion"),
-	new Palabra(24, "Y", "Contiene la Y:", "Concepto que caracteriza a una persona o un objeto de ser respetuoso con el medio ambiente, como  un producto compostable, o una persona con hábitos saludables", "Ecofriendly"),
-	new Palabra(25, "Z", "Contiene la Z:", "Una de las famosas Rs que nos permite que un desecho pueda ser utilizado formando parte de un producto nuevo", "Reutilizar")
+	new Palabra(14, "Ñ", "Contiene la Ñ:", " ??", "Ñandu"),
+	new Palabra(15, "O", "Empieza por O (3 palabras):", "Un evento protagonizado por temperaturas extremadamente altas para una región determinada, se mide en relación a la temperatura promedio del área", "Ola de calor"),
+	new Palabra(16, "P", "Empieza por P (2 palabras):", "Tipo de dieta que consume únicamente productos 100% vegetales para minimizar el impacto de los gases y desechos provenientes de la industria cárnica", "Plant based"),
+	new Palabra(17, "Q", "Contiene la Q:", "Anomalía climatológica en la escasa disponibilidad de agua dejando de ser suficiente para abastecer las necesidades de las plantas, los animales y los humanos que viven en dicho lugar", "Sequia"),
+	new Palabra(18, "R", "Empieza por R (2 palabras):", "Son bienes o servicios que proporciona la naturaleza sin la intervención de la sociedad. Se divide en tres tipos dependiendo de su renovabilidad", "Recursos naturales"),
+	new Palabra(19, "S", "Contiene la S (2 palabras):", "Desarrollo que satisfaga a la generación presente sin comprometer a las futuras en cuestiones naturales y climáticas", "Desarrollo sostenible"),
+	new Palabra(20, "T", "Contiene la T:", "Principal compuesto fósil contaminante de flora y fauna marina tras la realización de una exploración y/o explotación dentro de áreas oceánicas", "Petroleo"),
+	new Palabra(21, "U", "Contiene la U:", "Energía sustentable y renovable, se obtiene del aprovechamiento del potencial de la corriente del agua, saltos o mareas", "Hidraulica"),
+	new Palabra(22, "V", "Empieza por V:", "Se utiliza para fumigar campos de siembra, el más conocido es el Glifosato", "22"),
+	new Palabra(23, "W", "Empieza por W", "Organización no gubernamental fundada en 1961 que se encarga de la conservación del medio ambiente","WWF"),
+    new Palabra(24, "X", "Contiene la X:", "Explotación excesiva de un recurso natural", "Sobreexplotacion"),
+	new Palabra(25, "Y", "Contiene la Y:", "Concepto que caracteriza a una persona o un objeto de ser respetuoso con el medio ambiente, como  un producto compostable, o una persona con hábitos saludables", "Ecofriendly"),
+	new Palabra(26, "Z", "Contiene la Z:", "Una de las famosas Rs que nos permite que un desecho pueda ser utilizado formando parte de un producto nuevo", "Reutilizar")
 ];
 
-// Funciones
-
-class Palabra{
-	constructor(ID, letra, pista, definicion, palabra) {
-		this.ID = ID;
-		this.letra = letra;
-		this.pista = pista;
-		this.definicion = definicion;
-		this.palabra = palabra;
+let posicion = 0
+function enviar() {
+	let respuestaUsuario = document.getElementById("respuestaUsuario").value;
+	respuestaUsuario = respuestaUsuario.toLowerCase();
+	if (respuestaUsuario == palabras[posicion].palabra.toLowerCase()) {
+		palabras[posicion].correcto = true;
+		alert("Correcto")
+		/*document.GetElementById("item").innerHTML.eq(palabras[posicion].ID).addClass("item--correcto");*/
+	} else {
+		palabras[posicion].correcto = false;
+		alert("Incorrecto")
+		/* document.getElementById(".circle .item").innerHTML = eq(palabras[posicion].ID).addClass("item--error"); */
 	}
+	posicion ++
 }
 
-function mostrarDefinicion() {
-	document.getElementById("jspista").hidden == false
-	document.getElementById("jsdefinicion").hidden == false
-	document.getElementById("bienvenidagrande").hidden == true
+function pasapalabra(posicion) {
+	var p = palabras.splice(posicion, 1)[0];
+	palabras.push(p);
 }
 
-var palabrasRestantes = 25;
+let letraActual = 0
+function cargarDefinicion() {
+	document.getElementById("consignas").innerHTML = `<h2> ${palabras[letraActual].pista}, <br> ${palabras[letraActual].definicion} </h2>`
+	letraActual++;
+
+}
