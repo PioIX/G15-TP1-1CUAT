@@ -29,7 +29,7 @@
  
  **NITROGENO**: un gas incoloro que compone cuatro quintos del volumen del aire de la atmósfera y se usa para sintetizar amoníaco y otros productos, para fabricar explosivos, como refrigerante y como atmósfera inerte para conservar ciertos productos.
  
- **Ñ**:
+ **(CONTIENE Ñ) ESPAÑA**: país rodeado por el mar Mediterráneo, el océano Atlántico y el mar Cantábrico.
  
  **OLA DE CALOR**: un evento protagonizado por temperaturas extremadamente altas para una región determinada, se mide en relación a la temperatura promedio del área.
  
