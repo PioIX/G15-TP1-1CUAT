@@ -24,7 +24,7 @@ var palabras = [
     new Palabra(11, "L", "Contiene la L:", "Se lo considera como el estado frecuente de la atmósfera perteneciente a un lugar específico de una superficie terrestre", "Clima"),
 	new Palabra(12, "M", "Empieza por M:", "Acciones humanas que buscan reducir emisiones de gases del efecto invernadero", "Mitigacion"),
 	new Palabra(13, "N", "Empieza por N:", "Gas incoloro que compone cuatro quintos del volumen del aire de la atmósfera y se usa para sintetizar amoníaco y otros productos, para fabricar explosivos, como refrigerante y como atmósfera inerte para conservar ciertos productos", "Nitrogeno"),
-	new Palabra(14, "Ñ", "Contiene la Ñ:", " ??", "Ñandu"),
+	new Palabra(14, "Ñ", "Contiene la Ñ:", "País rodeado por el mar Mediterráneo, el océano Atlántico y el mar Cantábrico.", "España"),
 	new Palabra(15, "O", "Empieza por O (3 palabras):", "Un evento protagonizado por temperaturas extremadamente altas para una región determinada, se mide en relación a la temperatura promedio del área", "Ola de calor"),
 	new Palabra(16, "P", "Empieza por P (2 palabras):", "Tipo de dieta que consume únicamente productos 100% vegetales para minimizar el impacto de los gases y desechos provenientes de la industria cárnica", "Plant based"),
 	new Palabra(17, "Q", "Contiene la Q:", "Anomalía climatológica en la escasa disponibilidad de agua dejando de ser suficiente para abastecer las necesidades de las plantas, los animales y los humanos que viven en dicho lugar", "Sequia"),
