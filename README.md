@@ -31,6 +31,7 @@ En nuestra página web desarrollada con HTML y CSS contará con las siguientes p
 ## Indice y Explicación del contenido:
 
 - [Aplicación final](http://spappolla.pythonanywhere.com/)
+  Link de pythonanywhere con el juego
 
 - [Carpeta CSS](https://github.com/PioIX/G15-TP1-1CUAT/tree/main/css)
   Dentro de esta se encuentra cada archivo css con el diseño de las distintas pestañas de nuestra app web (juego, página inicio, información, etc).
