@@ -4,6 +4,10 @@
 
 - 5°A Informática  
 
+- [Aplicación final](http://spappolla.pythonanywhere.com/)
+  Link de pythonanywhere con el juego
+
+
 ## Introducción a la propuesta:
 
 Vamos a desarrollar una aplicación web que permita divulgar y conocer las características del ODS 13 "Acción por el clima" en profundidad. Tendrá formato de rosco, un **rosco ambiental**, con una consigna para cada letra que el jugador podrá responder con una palabra en un espacio en blanco según corresponda y enviarla o pasar
@@ -29,9 +33,6 @@ En nuestra página web desarrollada con HTML y CSS contará con las siguientes p
   3) **Juego:** el rosco en sí con todas las reglas correspondientes
 
 ## Indice y Explicación del contenido:
-
-- [Aplicación final](http://spappolla.pythonanywhere.com/)
-  Link de pythonanywhere con el juego
 
 - [Carpeta CSS](https://github.com/PioIX/G15-TP1-1CUAT/tree/main/css)
   Dentro de esta se encuentra cada archivo css con el diseño de las distintas pestañas de nuestra app web (juego, página inicio, información, etc).
