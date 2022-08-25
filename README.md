@@ -58,9 +58,5 @@ En nuestra página web desarrollada con HTML y CSS contará con las siguientes p
   Dentro de este, se encuentra el link que nos lleva al repositorio final del Replit junto a sus archivos.
   El Flask nos permite poder conectar cada archivo de codigo entre sí. 
   
-- [Archivo Base de Batos](https://github.com/PioIX/G15-TP1-1CUAT/blob/main/baseDeDatos_Rosco.db.sqbpro)
-  Dentro de este archivo se encuentra la base de datos de nuestra web, la cual permite que el usuario acumule sus puntos.
 
-- [Archivo Flask](https://github.com/PioIX/G15-TP1-1CUAT/blob/main/flask.py)
-  Es un archivo que contiene un boceto del Flask no terminado.
 
