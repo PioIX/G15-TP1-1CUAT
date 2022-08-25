@@ -1,5 +1,6 @@
 body{
     background-color: #0077b6;
+    font-family: 'Libre Baskerville', serif;
 }
 .contenedor{
     width: 90%;
@@ -22,7 +23,6 @@ header .menu a:hover{
 
 header .menu a{
     font-size: 18px;
-    font-family: 'Times New Roman', Times, serif ;;
     font-weight: 100;
     display: inline-block;
     margin:0 60px;
@@ -35,14 +35,12 @@ header .contenedor .caja .menu{
 }
 
 .cont .h3{
-    font-family: 'Times New Roman', Times, serif ;;
     font-size: 18px;
     display: inline-block;
     color:rgb(255, 255, 255);
     text-align: justify;
 }
 .cont .h2{
-    font-family: 'Times New Roman', Times, serif ;;
     font-size: 25px;
     display: inline-block;
     color: #ade8f4;
@@ -50,32 +48,26 @@ header .contenedor .caja .menu{
 }
 
 .h1{
-    font-family: 'Times New Roman', Times, serif ;;
-    font-size: 45px;
+    font-size: 35px;
     color:#ffffff;
     text-align:center;
     margin-top: 3%;
-    
-    
 }
 
 .cont{
-    font-family: 'Times New Roman', Times, serif ;;
-    font-weight: 100;
     display: inline-block;
     margin: 60px;
     color:rgb(255, 255, 255);
     text-decoration: none;
     text-align: justify;
+    font-size: 15px;
 }
 .Protesta{
     position: sticky;
     float: right;
     margin-top: 6%;
-
     /*right: 50%; */
     /*vertical-align: baseline;*/
-
 }
 .texto{
     display:flex;
@@ -91,4 +83,3 @@ header .contenedor .caja .menu{
     flex-direction: column;
     margin-left: 43%;
 }
-
