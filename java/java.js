@@ -29,7 +29,7 @@ var palabras = [
 	new Palabra(15, "P", "Empieza por P (2 palabras):", "Tipo de dieta que consume únicamente productos 100% vegetales para minimizar el impacto de los gases y desechos provenientes de la industria cárnica", "Plant based"),
 	new Palabra(16, "Q", "Contiene la Q:", "Anomalía climatológica en la escasa disponibilidad de agua dejando de ser suficiente para abastecer las necesidades de las plantas, los animales y los humanos que viven en dicho lugar", "Sequia"),
 	new Palabra(17, "R", "Empieza por R (2 palabras):", "Son bienes o servicios que proporciona la naturaleza sin la intervención de la sociedad. Se divide en tres tipos dependiendo de su renovabilidad", "Recursos naturales"),
-	new Palabra(18, "S", "Contiene la S (2 palabras):", "Desarrollo que satisfaga a la generación presente sin comprometer a las futuras en cuestiones naturales y climáticas", "Desarrollo sostenible"),
+	new Palabra(18, "S", "Contiene la S (2 palabras):", "Desarrollo que satisfaga a la generación presente sin comprometer a las futuras en cuestiones naturales y climáticas", "Desarrollo sustentable"),
 	new Palabra(19, "T", "Contiene la T:", "Principal compuesto fósil contaminante de flora y fauna marina tras la realización de una exploración y/o explotación dentro de áreas oceánicas", "Petroleo"),
 	new Palabra(20, "U", "Contiene la U:", "Energía sustentable y renovable, se obtiene del aprovechamiento del potencial de la corriente del agua, saltos o mareas", "Hidraulica"),
 	new Palabra(21, "V", "Empieza por V:", "Se utiliza para fumigar campos de siembra, el más conocido es el Glifosato", "Veneno"),
@@ -139,10 +139,4 @@ function updateClock() {
     }
 }
 
-function cargarPuntaje() {
-	var puntaje = localStorage.getItem("puntaje");
-	console.log(puntaje)
-	document.getElementById("puntaje").innerHTML = `${puntaje}`
-	
-}
 
