@@ -2,6 +2,7 @@
   width: 90%;
   max-width: 1000px;
   margin: auto;
+  font-family: 'Libre Baskerville', serif;
 }
 
 header .menu{
@@ -18,7 +19,6 @@ header .menu a:hover{
 
 header .menu a{
   font-size: 18px;
-  font-family: 'Times New Roman', Times, serif ;
   font-weight: 100;
   display: inline-block;
   margin:0 60px;
@@ -27,14 +27,12 @@ header .menu a{
 }
 
 html {
-  font-family: 'Times New Roman';
- 
+  font-family: 'Libre Baskerville', serif; 
 }
 
 body {
   position: relative;
   background-color: #10115c;
-  font-family:  'Times New Roman' ;
   font-size: 25px;
   font-weight: 900; 
 }
@@ -55,7 +53,7 @@ body {
       width: 50%;
       height: 100%;
       padding-top: 0; } }
-
+/* Rotacion del rosco */
   .circle > * {
     display: block;
     position: absolute;
@@ -114,6 +112,7 @@ body {
       transform: rotate(601.2deg) translate(10.6875em) rotate(-601.2deg); }
     .circle > *:nth-of-type(25) {
       transform: rotate(615.6deg) translate(10.6875em) rotate(-615.6deg); }
+    
   
       .circle > * {
         display: block;
@@ -187,9 +186,45 @@ body {
     text-decoration: none;
     cursor: default; }
     .circle .item--success {
-      background-image: radial-gradient(circle, #9ee379, #4caf50); }
+      background-image: radial-gradient(circle, #9ee379, #4caf50);
+      display: block;
+      width: 2.25em;
+      height: 2.25em;
+      transition: all .3s ease-in-out;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      color: #fff;
+      line-height: 2.25em;
+      text-align: center;
+      text-decoration: none;
+      cursor: default;  }
     .circle .item--failure {
-      background-image: radial-gradient(circle, #b9121b, #8e001c); }
+      background-image: radial-gradient(circle, #b9121b, #8e001c);
+      display: block;
+      width: 2.25em;
+      height: 2.25em;
+      transition: all .3s ease-in-out;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      color: #fff;
+      line-height: 2.25em;
+      text-align: center;
+      text-decoration: none;
+      cursor: default;  }
+    .circle .item--pasa {
+      background-image: radial-gradient(circle, #f8ffb7, #f0ca21d7);
+      display: block;
+      width: 2.25em;
+      height: 2.25em;
+      transition: all .3s ease-in-out;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      color: #fff;
+      line-height: 2.25em;
+      text-align: center;
+      text-decoration: none;
+      cursor: default;  }
+
 
 .reglas-contenedor {
   padding: 2em 0;
@@ -214,16 +249,15 @@ body {
     text-decoration: none;
     width: 100px;
     font-size: 18px;
-    margin-top: 50px
-
+    margin-top: 50px;
+    height: 45px;
   }
   
-
   .reglas-contenedor .btnDos {
     display: inline-block;
     border: 2px  #fff;
     border-radius: 3px;
-    font-size: 18px;
+    font-size: 16.5px;
     background-color: #56a6e7;
     color: rgb(0, 0, 0);
     margin-left: 0px;
@@ -231,27 +265,31 @@ body {
     line-height: 40px;
     text-align: center;
     text-decoration: none;
+    height: 45px;
     width: 100px;
 }
 
+.reglas-contenedor .btnUno {
+    height: 25px;
+    width: 200px;
+    margin-left: 20px;
+    position: relative;
+}
+
 .consignas { 
-  font-family: Georgia, 'Times New Roman', Times, serif; 
-  font-size: 12px; 
+  font-size: 10px; 
   font-weight: 400; 
   color: #ffffff; 
   width: 500px; 
   height: 150px;
-  padding-top: 190px;
- 
-
-
-
+  padding-top: 210px;
+  padding-left: 817px;
+  position: absolute;
 }
 
 .id .p{
   color: #fff;
   font-size: 17px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
   margin-left: auto;
   margin-right: auto;
   text-align: justify;
@@ -277,7 +315,6 @@ body {
   }
   .id h4 {
     color: #fff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
 
   }
@@ -292,7 +329,7 @@ body {
     margin-right: auto;
     text-align: justify;
     margin-top: 0;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-family: 'Libre Baskerville', serif;
   }
 
   .circle .item {
@@ -337,23 +374,12 @@ body {
       line-height: 2.8125em;
       text-align: center;
       text-decoration: none; }
-    .tablapuntaje .puntaje {
-      display: block;
-      width: 2.8125em;
-      height: 1.6875em;
-      margin-top: .5em;
-      border: 2px solid #fff;
-      background-image: radial-gradient(circle, #0074d9, #004b8d);
-      color: #fff;
-      font-weight: 900;
-      line-height: 1.6875em;
-      text-align: center;
-      text-decoration: none; }
   
   .titulo-contenedor {
     position: absolute;
     top: 25%;
     left: 50%;
+    text-align: center;
     transform: translate(-50%, -25%); }
     @media (min-width: 54.75em) {
       .titulo-contenedor {
@@ -367,66 +393,6 @@ body {
           color: #fff;
           font-size: 2.5rem;
           display: block; } }
-
-  .controles-contenedor {
-    padding: 2em 0;
-    width: 100%; }
-    @media (min-width: 54.75em) {
-      .controles-contenedor {
-        position: relative;
-        width: 50%;
-        height: 100%;
-        padding: 0; } }
-    .controles-contenedor .icon-close {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      color: #d90000;
-      cursor: pointer; }
-    .controles-contenedor .btn {
-      display: inline-block;
-      padding: .25em .5em;
-      border: 2px solid #fff;
-      border-radius: 3px;
-      background-color: #0074d9;
-      color: #fff;
-      font-weight: 900;
-      line-height: 1.6875em;
-      text-align: center;
-      text-decoration: none;
-      text-transform: uppercase;
-      cursor: pointer; }
-    .controles-contenedor .btn:hover {
-      background-color: #004b8d; }
-    .controles-contenedor .btn--green {
-      background-color: #9ee379; }
-    .controles-contenedor .btn--green:hover {
-      background-color: #4caf50; }
-      
-
-.ng-controls {
-  width: 80%;
-  max-width: none;
-  margin-left: auto;
-  margin-right: auto; }
-  @media (min-width: 54.75em) {
-    .ng-controls {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      margin: 0;
-      transform: translate(-50%, -50%); } }
-  .ng-controls .btn {
-    margin-top: 1em; }
-  .ng-controls h4 {
-    color: #fff;
-    text-transform: uppercase; }
-  .ng-controls p {
-    color: #fff;
-    font-size: .9rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0; }
 
 .preguntas {
   width: 80%;
@@ -453,33 +419,4 @@ body {
     color: #fff;
     font-size: 1.75rem; }
 
-.pa-controls {
-  width: 80%;
-  max-width: none;
-  margin-left: auto;
-  margin-right: auto; }
-  @media (min-width: 54.75em) {
-    .pa-controls {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      margin: 0;
-      transform: translate(-50%, -50%);
-      text-align: center; } }
-  .pa-controls .title {
-    margin-bottom: 0;
-    color: #fff;
-    font-size: 1.5rem;
-    text-transform: uppercase; }
-  .pa-controls .subtitle {
-    margin-top: 0;
-    color: #fff;
-    text-transform: uppercase; }
-  .pa-controls .btn {
-    margin-top: 0;
-    color: #fff;
-    text-transform: uppercase;
-    border-radius: 3px;
-    background-color: rgb(163, 160, 160);
-    color: #fff; }
 

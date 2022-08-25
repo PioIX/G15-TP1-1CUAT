@@ -6,6 +6,7 @@ body{
     background-repeat: no-repeat;
     background-position:center;
     background-attachment: cover;
+    font-family: 'Libre Baskerville', serif;
 }
 
 header .menu{
@@ -22,7 +23,6 @@ header .menu a:hover{
 
 header .menu a{
     font-size: 18px;
-    font-family: 'Times New Roman', Times, serif ;;
     font-weight: 100;
     display: inline-block;
     margin:0 60px;
@@ -31,17 +31,14 @@ header .menu a{
 }
 
 .abajo{
-    font-family: 'Times New Roman', Times, serif ;;
     text-align: center;
 }
 .arriba{
-    font-family: 'Times New Roman', Times, serif ;;
     text-align: center;
 }
 
 .arriba .h3{
     font-size: 35px;
-    font-family: 'Times New Roman', Times, serif ;
     font-weight: 100;
     margin:0 60px;
     color:rgb(255, 255, 255);
@@ -49,7 +46,6 @@ header .menu a{
 }
 .arriba .h2{
     font-size: 100px;
-    font-family: 'Times New Roman', Times, serif ;
     font-weight: 100;
     margin:0 60px;
     color:rgb(255, 255, 255);
@@ -59,7 +55,6 @@ header .menu a{
 
 .arriba .h1{
     font-size: 100px;
-    font-family: 'Times New Roman', Times, serif ;;
     font-weight: 100;
     margin:0 60px;
     color:rgb(255, 255, 255);
@@ -67,14 +62,12 @@ header .menu a{
 }
 
 .abajo .h4{
-    font-family: 'Times New Roman', Times, serif ;;
     color:rgb(255, 255, 255);
     font-size: 25px;
 
 }
 
 .btn {
-    font-family: 'Times New Roman', Times, serif ;;
     display: inline-block;
     width: 50px;
     border-radius: 70%;    
