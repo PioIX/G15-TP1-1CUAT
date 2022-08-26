@@ -12,12 +12,11 @@
 
 Vamos a desarrollar una aplicación web que permita divulgar y conocer las características del ODS 13 "Acción por el clima" en profundidad. Tendrá formato de rosco, un **rosco ambiental**, con una consigna para cada letra que el jugador podrá responder con una palabra en un espacio en blanco según corresponda y enviarla o pasar
 (pasapalabra). 
-Al finalizar el juego, el jugador verá su puntaje y las respuestas correctas. El nombre del jugador y su puntaje se guardará en una base de datos; para que luego estos
-se puedan visualizar.
+Al finalizar el juego, el jugador verá su puntaje.
 
 El juego consiste en acertar las 27 palabras pedidas segun la letra correspondida, con su definicion o consigna.
 Los aciertos se reflejarán en las letras mediante el color verde, mientras que los fallos se mostrarán en color rojo. Las cuestiones no respondidas o "pasapalabra" 
-se mostrarán en color azul.
+se mostrarán en color amarillo.
 Para completar el rosco se dispone de un tiempo determinado y se irán sumando los aciertos del jugador.
 
 
