@@ -6,6 +6,9 @@
 
 - [Aplicación final](http://spappolla.pythonanywhere.com/)
   Link de pythonanywhere con el juego
+  
+- [Aplicación final Replit](https://Flask-Rosco.melina-micaelam.repl.co)
+  Link de pythonanywhere con el juego
 
 
 ## Introducción a la propuesta:
